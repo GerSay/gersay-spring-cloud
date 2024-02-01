@@ -3,7 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>gersay</groupId>
   <artifactId>gersay-spring-cloud</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Archetype - gersay-spring-cloud</name>
   <url>http://maven.apache.org</url>
+
+  <modules>
+    <module>eureka-server</module>
+    <module>demo-eureka-client</module>
+  </modules>
+
 </project>
