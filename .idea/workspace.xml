@@ -4,28 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07bcd593-5e97-493e-8e68-a0b96d70ebf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-eureka-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-client/src/main/java/ru/spring/cloud/micro/demo/demoeurekaclient/DemoEurekaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-client/src/main/java/ru/spring/cloud/micro/demo/demoeurekaclient/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-client/src/test/java/ru/spring/cloud/micro/demo/demoeurekaclient/DemoEurekaClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/ru/spring/cloud/micro/demo/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="07bcd593-5e97-493e-8e68-a0b96d70ebf9" name="Changes" comment="0.0.2 Create demo-eureka-client module&#10;        Add:&#10;             - &quot;/test&quot; - rest controller: TestController&#10;        Update:&#10;             - pom.xml">
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/ru/spring/cloud/micro/demo/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/ru/spring/cloud/micro/demo/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/src/main/java/ru/spring/cloud/micro/demo/autheurekaclient/AuthEurekaClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/src/main/java/ru/spring/cloud/micro/demo/autheurekaclient/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/src/main/java/ru/spring/cloud/micro/demo/autheurekaclient/entity/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/src/main/java/ru/spring/cloud/micro/demo/autheurekaclient/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/src/main/java/ru/spring/cloud/micro/demo/autheurekaclient/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/src/main/java/ru/spring/cloud/micro/demo/autheurekaclient/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/src/main/java/ru/spring/cloud/micro/demo/autheurekaclient/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-eureka-client/src/test/java/ru/spring/cloud/micro/demo/autheurekaclient/AuthEurekaClientApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-client/src/main/java/ru/spring/cloud/micro/demo/demoeurekaclient/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-client/src/main/java/ru/spring/cloud/micro/demo/demoeurekaclient/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +76,9 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.DemoEurekaClientApplication-inst1.executor": "Run",
+    "Spring Boot.DemoEurekaClientApplication-inst2.executor": "Run",
     "Spring Boot.DemoEurekaClientApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "git-widget-placeholder": "master",
@@ -80,17 +92,35 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.spring.cloud.micro.demo.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="auth-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.spring.cloud.micro.demo.autheurekaclient.AuthEurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo-eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.spring.cloud.micro.demo.demoeurekaclient.DemoEurekaClientApplication" />
@@ -105,6 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AuthEurekaClientApplication" />
+      <item itemvalue="Spring Boot.DemoEurekaClientApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -121,8 +157,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706825290929</updated>
-      <workItem from="1706825291972" duration="2339000" />
+      <workItem from="1706825291972" duration="8713000" />
     </task>
+    <task id="LOCAL-00001" summary="0.0.2 Create demo-eureka-client module&#10;        Add:&#10;             - &quot;/test&quot; - rest controller: TestController&#10;        Update:&#10;             - pom.xml">
+      <option name="closed" value="true" />
+      <created>1706827890817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706827890817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +177,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="0.0.1 Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.1 Initial commit" />
+    <MESSAGE value="0.0.2 Create demo-eureka-client module&#10;        Add:&#10;             - &quot;/test&quot; - rest controller: TestController&#10;        Update:&#10;             - pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.2 Create demo-eureka-client module&#10;        Add:&#10;             - &quot;/test&quot; - rest controller: TestController&#10;        Update:&#10;             - pom.xml" />
   </component>
 </project>
