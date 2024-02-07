@@ -1,10 +1,10 @@
-package ru.spring.cloud.micro.demo.autheurekaclient;
+package gersay.resourceserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AuthEurekaClientApplicationTests {
+class ResourceServerApplicationTests {
 
     @Test
     void contextLoads() {

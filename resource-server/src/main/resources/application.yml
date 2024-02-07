@@ -1,0 +1,18 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: htp://localhost:8080/realms/gersay
+      client:
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8080/realms/gersay
+            user-name-attribute: preferred_username
+        registration:
+          keycloak:
+            client-id: springsecurity
+            client-secret: tRxiZv5U3fHOUo8RjJfMt15jfFQNtyYD
+            scope: openid
+server:
+  port: 8081

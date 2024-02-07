@@ -10,8 +10,8 @@
   <modules>
     <module>eureka-server</module>
     <module>demo-eureka-client</module>
-    <module>auth-eureka-client</module>
     <module>api-gateway</module>
+
   </modules>
 
 </project>
